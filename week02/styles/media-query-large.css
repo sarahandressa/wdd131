@@ -1,0 +1,40 @@
+@font-face {
+    font-family : 'Roboto';
+    font-style : normal;
+    font-weight : 400;
+    font-display : swap;
+    src : url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+    }
+    
+    body {
+    font-family : "Roboto", sans-serif;
+    }
+
+    header, main, footer {
+    max-width : 640px;
+    margin : 1rem auto;
+    border : #bbb solid 1px;
+    padding : 1rem;
+    background-color : rgb(8, 113, 155);
+    }
+
+    main {
+    display : grid;
+    grid-template-columns : 1fr;
+    gap : 1rem;
+    }
+
+    section {
+    padding : 1rem;
+    background-color : #fff;
+    }
+    
+    @media screen and (min-width: 500px) {
+    header {
+    background-color : black;
+    color : #fff;
+    }
+    main {
+    grid-template-columns : 1fr 1fr;
+    }
+    }
