@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brazil - Country Info</title>
+    <meta name="description" content="Country webpage about Brazil - WDD 131">
+    <meta name="author" content="Sarah Diaz">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <script defer src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Brazil</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero.webp.jpg" media="(min-width: 850px)" width="850" height="600">
+                    <img src="images/hero1.webp.jpg" alt="" width="450" height="600">
+                </picture>
+            </div>
+            <section class="data">
+                <h2>Data</h2>
+                <div class="left-text-data">
+                    <p><strong>Area:</strong></p>
+                    <p><strong>Population:</strong></p>
+                    <p><strong>Capital:</strong></p>
+                    <p><strong>Languages:</strong></p>
+                    <p><strong>Currency:</strong></p>
+                    <p><strong>Time Zone:</strong></p>
+                    <p><strong>Calling Code:</strong></p>
+                    <p><strong>Internet TLD:</strong></p>
+                </div>  
+                <div class="right-text-data">  
+                    <p>3,287,357 sq mi</p>
+                    <p>215.3 million</p>
+                    <p>Brasília</p>
+                    <p>Portuguese</p>
+                    <p>Real R$(BRL)</p>
+                    <p>UTC -3</p>
+                    <p>+55</p>
+                    <p>.br</p>
+                </div>    
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <img src="images/weather-icon.svg" alt="" width="200">
+                <div class="left-text-weather">
+                    <p><strong>Temperature:</strong></p>
+                    <p><strong>Conditions:</strong></p>
+                    <p><strong>Wind:</strong></p>
+                    <p><strong>Wind Chill:</strong></p>
+                </div>
+                <div class="right-text-weather">
+                    <p><span id="temperature"></span> °C</p>
+                    <p><span id="conditions"></span></p>
+                    <p><span id="wind"></span> km/h</p>
+                    <p><span id="wind-chill"></span> °C</p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> 🥰 Sarah Diaz 🥰 Brazil
+        </p>
+        <p>
+            Last Modified <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>
