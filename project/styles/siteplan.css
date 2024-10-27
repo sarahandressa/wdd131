@@ -1,0 +1,35 @@
+:root {
+    --tealgreen : #C8E9A0;
+    --tiffany-blue : #6DD3CE;
+    --atomic-tangerine : #F7A278;
+    --quinacridone-magenta : #A13D63;
+    --dark-purple: #351E29;
+    --white-color : #fff;
+    }
+    * {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    }
+    body {
+    font-family : "Raleway";
+    max-width : 980px;
+    margin : 0 auto;
+    text-align : center;
+    }
+    header, footer {
+    background-color : #6DD3CE;
+    padding : 2rem;
+    color : var(--quinacridone-magenta);
+    }
+    h2 {
+    color : var(--quinacridone-magenta);
+    }
+    p, h3 {
+    padding-top : 1rem;
+    }
+    .site-name, .site-purpose, .scenarios, .color-schema, .typography, .wireframe {
+    padding-top : 2rem;
+    text-align : left;
+    }
+    
