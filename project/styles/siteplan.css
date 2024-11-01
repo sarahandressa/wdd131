@@ -32,4 +32,18 @@
     padding-top : 2rem;
     text-align : left;
     }
+
+
+    :root {
+        --primary-color : #0D2C54;
+        --secondary-color : #7FB800;
+        --accent1-color : #00A6ED;
+        --accent2-color : #F6511D;
+        --heading-font : "Amatic SC",serif;
+        --paragraph-font : "Quicksand",serif;
+        --nav-background-color : #00A6ED;
+        --nav-link-color : #0D2C54;
+        --nav-hover-link-color : #0D2C54;
+        --nav-hover-background-color : #00A6ED;
+        }
     

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Reads</title>
+    <meta name="description" content="WDD 131 Week 06 - Final Project">
+    <meta name="author" content="Sarah Díaz">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/nicereads.css">
+    <script defer src="scripts/nicereads.js"></script>
+</head>
+<body>
+        <header>
+            <img src="images/logo.png" alt="nicereads site logo">
+            <nav>
+                <a href="nicereads.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="books.html">Books</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="home">
+                <img src="images/book.jpg" alt="Books">
+                <h1>Come Read with Us<br>Magical Adventures, Thriller and Romance for all!</h1>
+            </div>
+            <form>
+                <div class="heading">
+                    <h2>Sign Up For Our Newsletter!</h2>
+                    <p>Stay updated with our latest reads and reviews</p>
+                </div>           
+                <div class="form-item">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Name"><br>
+                    <label for="useremail">Email:</label><br>
+                    <input type="email" id="useremail" name="useremail" placeholder="Email">
+                </div>
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <div class="heading">
+                <h1>No Idea What to Read Next?!</h1>
+                <p>Find your next book <a href="books.html">here</a></p>
+            </div>
+
+            <div class="books">
+                <figure>
+                    <img src="images/book1.jpg" alt="Woman in Library">
+                    <figcaption>At Nice Reads, Our mission is to foster a love for reading by bringing together diverse voices and perspectives in a welcoming, inclusive environment. <br> 
+                    We aim to inspire meaningful discussions, deepen our understanding of different genres and cultures, and build a community of passionate readers who support and encourage one another on their literary journeys.</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/book2.jpg" alt="Books">
+                    <figcaption>Ready to dive deeper into the world of books? Discover new reads, get exclusive recommendations, and stay updated on all things literary by joining our newsletter! <br>
+                    Sign up now and let us bring a world of stories and insights straight to your inbox. Happy reading!"
+            </div>
+    
+        </main> 
+        <footer>
+            <p>
+                © <span id="currentyear"></span> | 📚 Nice Reads 📚 Sarah Diaz 📚 Brazil 
+            </p>
+            <p>
+                Last Modified <span id="lastModified"></span>
+            <a>
+        <nav class="social-media">
+        </a>
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+            <a href="https://youtube.com"><img src="images/youtube.png" alt="youtube"></a>
+        </nav>
+    </footer>
+</body>
+</html>
+
