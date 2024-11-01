@@ -18,8 +18,9 @@
     font-size: 1.2em;
     text-align: center;
     margin: 20px 0;
-    color: #351E29;
+    color: #fff;
     font-weight: 700;
+    background-color : #A13D63;
   }
   
   .history {
@@ -109,7 +110,7 @@
       display : grid;
       grid-template-columns : repeat(3,auto);
       align-items : center;
-      border-bottom : 1px solid #ccc;
+      border-bottom : 1px solid #351E29;
       max-width : 1000px;
       font-family: "Raleway";
   }
@@ -143,18 +144,21 @@
       grid-template-columns : repeat(5,auto);
       gap : 5px;
       justify-content : center;
+      background-color : #6DD3CE;
   }
       
   .adventure h2 {
       text-align : center;
       grid-column : 1 / -1;
       margin-bottom : 20px;
+      background-color : #6DD3CE;
   }
   
   .adventure figure {
       margin : 0;
       padding : 10px;
       grid-template-columns : repeat(auto-fit,minmax(150px,1fr));
+      background-color : #6DD3CE;
   }
   
   .adventure img {
@@ -188,6 +192,7 @@
       text-align : center;
       margin-bottom : 20px;
       padding : 20px;
+      background-color: #F7A278;
   }
   
   .container {
@@ -215,7 +220,7 @@
       
   form {
       padding : 20px;
-      background-color : #C8E9A0;
+      background-color : #F7A278;
       display : flex;
       flex-direction : column;
       justify-content : center;
@@ -247,7 +252,7 @@
       margin : 20px;
       padding : 10px;
       width : 20%;
-      background-color : #F7A278;
+      background-color : #C8E9A0;
       border : none;
       border-radius : 5px;
       font-size : 1.1rem;
@@ -260,13 +265,13 @@
   }
   
   button:hover {
-      color : #F7A278;
+      color : #C8E9A0;
       background-color : #351E29;
   }
   
   .books {
       display : grid;
-      background-color : #6DD3CE;
+      background-color : #F7A278;
       grid-template-columns : repeat(3,auto);
       gap : 5px;
       justify-content : center;
@@ -320,5 +325,9 @@
       padding : 0.5rem;
       opacity : 0.8;
   }
+
+  footer {
+    background-color : #6DD3CE;
+    }
   
   
